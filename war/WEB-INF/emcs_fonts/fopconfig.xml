@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <fonts>
+    <font metrics-file="fonts/arial.xml" kerning="yes" embed-file="fonts/arial.ttf">
+      <font-triplet name="Arial" style="normal" weight="normal" />
+    </font>
+    <font metrics-file="fonts/arialbd.xml" kerning="yes" embed-file="fonts/arialbd.ttf">
+      <font-triplet name="Arial" style="normal" weight="bold" />
+    </font>
+    <font metrics-file="fonts/ariali.xml" kerning="yes" embed-file="fonts/ariali.ttf">
+      <font-triplet name="Arial" style="italic" weight="normal" />
+    </font>
+    <font metrics-file="fonts/arialbi.xml" kerning="yes" embed-file="fonts/arialbi.ttf">
+      <font-triplet name="Arial" style="italic" weight="bold" />
+    </font>
+
+    <font metrics-file="fonts/times.xml" kerning="yes" embed-file="fonts/times.ttf">
+      <font-triplet name="Times New Roman" style="normal" weight="normal" />
+    </font>
+    <font metrics-file="fonts/timesbd.xml" kerning="yes" embed-file="fonts/timesbd.ttf">
+      <font-triplet name="Times New Roman" style="normal" weight="bold" />
+    </font>
+    <font metrics-file="fonts/timesbi.xml" kerning="yes" embed-file="fonts/timesbi.ttf">
+      <font-triplet name="Times New Roman" style="italic" weight="bold" />
+    </font>
+    <font metrics-file="fonts/timesi.xml" kerning="yes" embed-file="fonts/timesi.ttf">
+      <font-triplet name="Times New Roman" style="italic" weight="normal" />
+    </font>
+  </fonts>
+</configuration>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns10:TraderToEMCSRequest xmlns:ns2="http://emcs.dgtaxud.ec/v10/cd837/ie" xmlns="http://emcs.dgtaxud.ec/v10/tms" xmlns:ns4="urn:publicid:-:PL:GOV:MF:EMCS:PHASE2:PL817:V1.00" xmlns:ns3="http://emcs.dgtaxud.ec/v10/cd818/ie" xmlns:ns9="urn:publicid:-:PL:GOV:MF:EMCS:PHASE2:PL705:V1.00" xmlns:ns5="urn:publicid:-:PL:GOV:MF:EMCS:PHASE2:PL815:V1.00" xmlns:ns6="urn:publicid:-:PL:GOV:MF:EMCS:PHASE2:PL814:V1.00" xmlns:ns10="urn:publicid:-:PL:GOV:MF:EMCS:PHASE2:TRADER-EMCS:REQUEST:V1.00" xmlns:ns7="http://emcs.dgtaxud.ec/v10/cd813/ie" xmlns:ns8="http://emcs.dgtaxud.ec/v10/cd810/ie">
+    <ns10:Message>
+        <ns3:CD818A>
+            <ns3:Header>
+                <MessageSender>PL39100320303</MessageSender>
+                <MessageRecipient>NDEA.PL</MessageRecipient>
+                <DateOfPreparation>2011-12-16</DateOfPreparation>
+                <TimeOfPreparation>11:35:46</TimeOfPreparation>
+                <MessageIdentifier>2011/1A</MessageIdentifier>
+            </ns3:Header>
+            <ns3:Body>
+                <ns3:AcceptedOrRejectedReportOfReceipt>
+                    <ns3:Attributes/>
+                    <ns3:ConsigneeTrader language="pl">
+                        <ns3:Traderid>PL39100251205</ns3:Traderid>
+                        <ns3:TraderName>KORLEN SPÓŁKA Z O.O.</ns3:TraderName>
+                        <ns3:StreetName>ŻWIRKI I WIGURY</ns3:StreetName>
+                        <ns3:StreetNumber>2A</ns3:StreetNumber>
+                        <ns3:Postcode>62-230</ns3:Postcode>
+                        <ns3:City>WITKOWO</ns3:City>
+                    </ns3:ConsigneeTrader>
+                    <ns3:ExciseMovementEaad>
+                        <ns3:AadReferenceCode>11PL36200000000788791</ns3:AadReferenceCode>
+                        <ns3:SequenceNumber>1</ns3:SequenceNumber>
+                    </ns3:ExciseMovementEaad>
+                    <ns3:DeliveryPlaceTrader language="pl">
+                        <ns3:Traderid>PL39100320303</ns3:Traderid>
+                        <ns3:TraderName>KORLEN SPÓŁKA Z O.O</ns3:TraderName>
+                        <ns3:StreetName>ŻWIRKI I WIGURY</ns3:StreetName>
+                        <ns3:StreetNumber>2A</ns3:StreetNumber>
+                        <ns3:Postcode>62-230</ns3:Postcode>
+                        <ns3:City>WITKOWO</ns3:City>
+                    </ns3:DeliveryPlaceTrader>
+                    <ns3:DestinationOffice>
+                        <ns3:ReferenceNumber>PL391000</ns3:ReferenceNumber>
+                    </ns3:DestinationOffice>
+                    <ns3:ReportOfReceipt>
+                        <ns3:DateOfArrivalOfExciseProducts>2011-12-16</ns3:DateOfArrivalOfExciseProducts>
+                        <ns3:GlobalConclusionOfReceipt>1</ns3:GlobalConclusionOfReceipt>
+                    </ns3:ReportOfReceipt>
+                </ns3:AcceptedOrRejectedReportOfReceipt>
+            </ns3:Body>
+        </ns3:CD818A>
+    </ns10:Message>
+</ns10:TraderToEMCSRequest>

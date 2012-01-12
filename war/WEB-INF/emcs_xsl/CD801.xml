@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><EMCSToTrader xmlns="urn:publicid:-:PL:GOV:MF:EMCS:PHASE2:EMCS-TRADER:REQUEST:V1.00" xmlns:ie801="http://emcs.dgtaxud.ec/v10/cd801/ie" xmlns:tms="http://emcs.dgtaxud.ec/v10/tms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Message><ie801:CD801A>
+  <ie801:Header>
+    <tms:MessageSender>NDEA.PL</tms:MessageSender>
+    <tms:MessageRecipient>PL39100320303</tms:MessageRecipient>
+    <tms:DateOfPreparation>2011-12-29</tms:DateOfPreparation>
+    <tms:TimeOfPreparation>10:45:21.853375</tms:TimeOfPreparation>
+    <tms:MessageIdentifier>PL#IE801#66553233</tms:MessageIdentifier>
+  </ie801:Header>
+  <ie801:Body>
+    <ie801:AADContainer>
+      <ie801:ConsigneeTrader language="pl">
+        <ie801:Traderid>PL39100251205</ie801:Traderid>
+        <ie801:TraderName>KORLEN SP. Z O.O.</ie801:TraderName>
+        <ie801:StreetName>ŻWIRKI I WIGURY</ie801:StreetName>
+        <ie801:StreetNumber>2 A</ie801:StreetNumber>
+        <ie801:Postcode>62-230</ie801:Postcode>
+        <ie801:City>WITKOWO</ie801:City>
+      </ie801:ConsigneeTrader>
+      <ie801:ExciseMovementEaad>
+        <ie801:AadReferenceCode>11PL36200000000829479</ie801:AadReferenceCode>
+        <ie801:DateAndTimeOfValidationOfEaad>2011-12-29T10:45:00.697125</ie801:DateAndTimeOfValidationOfEaad>
+      </ie801:ExciseMovementEaad>
+      <ie801:ConsignorTrader language="pl">
+        <ie801:TraderExciseNumber>PL36200009204</ie801:TraderExciseNumber>
+        <ie801:TraderName>SAGA-GAZ SP. Z O.O.</ie801:TraderName>
+        <ie801:StreetName>BOHATERÓW WALK NAD BZURĄ</ie801:StreetName>
+        <ie801:StreetNumber>4 A</ie801:StreetNumber>
+        <ie801:Postcode>99-300</ie801:Postcode>
+        <ie801:City>KUTNO</ie801:City>
+      </ie801:ConsignorTrader>
+      <ie801:PlaceOfDispatchTrader language="pl">
+        <ie801:ReferenceOfTaxWarehouse>PL36200010341</ie801:ReferenceOfTaxWarehouse>
+        <ie801:TraderName>SAGA-GAZ SP. Z O.O.</ie801:TraderName>
+        <ie801:StreetName>BOHATERÓW WALK NAD BZURĄ</ie801:StreetName>
+        <ie801:StreetNumber>4 A</ie801:StreetNumber>
+        <ie801:Postcode>99-300</ie801:Postcode>
+        <ie801:City>KUTNO</ie801:City>
+      </ie801:PlaceOfDispatchTrader>
+      <ie801:DeliveryPlaceTrader language="pl">
+        <ie801:Traderid>PL39100320303</ie801:Traderid>
+        <ie801:TraderName>KORLEN SP. Z O.O.</ie801:TraderName>
+        <ie801:StreetName>ŻWIRKI I WIGURY</ie801:StreetName>
+        <ie801:StreetNumber>2 A</ie801:StreetNumber>
+        <ie801:Postcode>62-230</ie801:Postcode>
+        <ie801:City>WITKOWO</ie801:City>
+      </ie801:DeliveryPlaceTrader>
+      <ie801:CompetentAuthorityDispatchOffice>
+        <ie801:ReferenceNumber>PL362000</ie801:ReferenceNumber>
+      </ie801:CompetentAuthorityDispatchOffice>
+      <ie801:FirstTransporterTrader language="pl">
+        <ie801:VatNumber>PL7751010155</ie801:VatNumber>
+        <ie801:TraderName>SAGA-GAZ SP. Z O.O.</ie801:TraderName>
+        <ie801:StreetName>BOHATERÓW WALK NAD BZURĄ</ie801:StreetName>
+        <ie801:StreetNumber>4 A</ie801:StreetNumber>
+        <ie801:Postcode>99-300</ie801:Postcode>
+        <ie801:City>KUTNO</ie801:City>
+      </ie801:FirstTransporterTrader>
+      <ie801:TransportDetails>
+        <ie801:TransportUnitCode>3</ie801:TransportUnitCode>
+        <ie801:IdentityOfTransportUnits>EKU 97R6/EKU 75YT</ie801:IdentityOfTransportUnits>
+      </ie801:TransportDetails>
+      <ie801:Eaad>
+        <ie801:LocalReferenceNumber>36200010341002992011</ie801:LocalReferenceNumber>
+        <ie801:InvoiceNumber>2011-12-29</ie801:InvoiceNumber>
+        <ie801:InvoiceDate>2011-12-29</ie801:InvoiceDate>
+        <ie801:OriginTypeCode>1</ie801:OriginTypeCode>
+        <ie801:DateOfDispatch>2011-12-29</ie801:DateOfDispatch>
+        <ie801:TimeOfDispatch>11:00:00</ie801:TimeOfDispatch>
+      </ie801:Eaad>
+      <ie801:HeaderEaad>
+        <ie801:SequenceNumber>1</ie801:SequenceNumber>
+        <ie801:DateOfUpdateValidation>2011-12-29T10:45:00.697125</ie801:DateOfUpdateValidation>
+        <ie801:DestinationTypeCode>1</ie801:DestinationTypeCode>
+        <ie801:JourneyTime>D01</ie801:JourneyTime>
+        <ie801:TransportArrangement>1</ie801:TransportArrangement>
+      </ie801:HeaderEaad>
+      <ie801:TransportMode>
+        <ie801:TransportModeCode>3</ie801:TransportModeCode>
+      </ie801:TransportMode>
+      <ie801:MovementGuarantee>
+        <ie801:GuarantorTypeCode>1</ie801:GuarantorTypeCode>
+      </ie801:MovementGuarantee>
+      <ie801:BodyEaad>
+        <ie801:BodyRecordUniqueReference>1</ie801:BodyRecordUniqueReference>
+        <ie801:ExciseProductCode>E500</ie801:ExciseProductCode>
+        <ie801:CnCode>27111297</ie801:CnCode>
+        <ie801:Quantity>17250</ie801:Quantity>
+        <ie801:GrossWeight>38250</ie801:GrossWeight>
+        <ie801:NetWeight>17250</ie801:NetWeight>
+        <ie801:Package>
+          <ie801:KindOfPackages>TY</ie801:KindOfPackages>
+          <ie801:NumberOfPackages>1</ie801:NumberOfPackages>
+        </ie801:Package>
+      </ie801:BodyEaad>
+    </ie801:AADContainer>
+  </ie801:Body>
+</ie801:CD801A></Message>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="PEMI-Signature-Id-1"><ds:SignedInfo Id="PEMI-SignedInfo-Id-1"><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod><ds:Reference Id="PEMI-Reference-Id-1" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform><ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>4cer5SJQBeopYaayfHUztiuu4fc=</ds:DigestValue></ds:Reference><ds:Reference Id="PEMI-Reference-Id-2" Type="http://uri.etsi.org/01903#SignedProperties" URI="#PEMI-SignedProperties-Id-1"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>BOOTzlQ2jpIIsqunWI/udyJD+vc=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="PEMI-SignatureValue-Id-1">TDE4Txiv5nPw/JiBVoZDKbgoOneMK+o6iMOu1kgRtO+D7dhN6wQlCsjFisYkED3dxmTTfYbFdFf7
+esXglYtNDsdHC/t4QMYo9r3VrEXnaYLSTRd8xiqPRoIpGLV64SV4FBLZvIBQTxEh3THZuq0as8LP
+P7kFYcGloGHjwC9q2g8=</ds:SignatureValue><ds:KeyInfo Id="PEMI-KeyInfo-Id-1"><ds:X509Data><ds:X509Certificate>MIIEVDCCAzygAwIBAgIKd0r/XwACAABApDANBgkqhkiG9w0BAQUFADCBjDEPMA0GA1UEBxMGS3Jh
+a293MRQwEgYDVQQIEwtNYWxvcG9sc2tpZTELMAkGA1UEBhMCUEwxGjAYBgNVBAsTEUl6YmEgQ2Vs
+bmEgS3Jha293MRowGAYDVQQKExFJemJhIENlbG5hIEtyYWtvdzEeMBwGA1UEAxMVSXpiYSBDZWxu
+YSB3IEtyYWtvd2llMB4XDTEwMDkwOTEyMjA1OFoXDTEzMDYxMjExNDkwMVowgbAxCzAJBgNVBAYT
+AlBMMRIwEAYDVQQIDAnFgsOzZHpraWUxEDAOBgNVBAcMB8WBw7NkxboxSDBGBgNVBAMMP1N5c3Rl
+bSBQcnplbWllc3pjemFuaWEgb3JheiBOYWR6b3J1IFd5cm9iw7N3IEFrY3l6b3d5Y2ggRU1DUyBQ
+TDExMC8GCSqGSIb3DQEJARYiZW1jcy5oZEBuY3RzLWNlbnRydW0ubW9mbmV0Lmdvdi5wbDCBnzAN
+BgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAtEfwkNYWPem+r2YvRukQCbdJhTG0t5MkECrKmQ4UPduv
+D4BRoNXKsGj33huFRqXYzI32v5Y2g/KtXVbTuxH3RARBjsq2SViimE5NbPjCzcmlXkOtQJSpiVkd
+f4xHO1ke4YNUGHST+3cYjsHtoI2FHNXnKA5HG3OuhLHF+ryUoj8CAwEAAaOCARQwggEQMA4GA1Ud
+DwEB/wQEAwIE8DBEBgkqhkiG9w0BCQ8ENzA1MA4GCCqGSIb3DQMCAgIAgDAOBggqhkiG9w0DBAIC
+AIAwBwYFKw4DAgcwCgYIKoZIhvcNAwcwHQYDVR0OBBYEFGDDAAK5jUCcOlXdK1Nkaae8zaVoMB0G
+A1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDAfBgNVHSMEGDAWgBQWWbfgPcXj6eJSdK8QYUOj
+ZQQqhDA7BgNVHR8ENDAyMDCgLqAshipodHRwOi8vd3d3LmNlbGluYS5rcmFrb3cudWMuZ292LnBs
+L2NybC5jcmwwHAYDVQQFBBUWE05JUDo3MjcwMTM0NzAyX1RJTjowDQYJKoZIhvcNAQEFBQADggEB
+AHIGwlOqlbnpQIfAv6Va21JcX8aBoTZ4prHJiQVKzoT7xKYjy/0SQEG1WlSvPNcbF35wE/gSsrKt
+vQerwnw8lBlSwNfxcvRBELO41OklzOgjbiuiJGuNwHD95wUgtRwUbUbEbshD94n+9FGt5LFIOOAL
+poQefS3t65PRUWvHeXL4iTa46/CX2ILN1w0wtYWAfr1o/fhk4a7AgSldtVfq5RY06w1pApnLj4xy
+CiX3Pm1fo57usveYoVhi87ff1vz26pTRAREP20ByVKJVNqszENOq6mJgHSEcc4VTDlG6krbV45E3
+qxiw7H+z6QHcExj35dOuSVnuUbOxD9u+MLvvE4M=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object Id="PEMI-Object-Id-1"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="PEMI-QualifyingProperties-Id-1" Target="#PEMI-Signature-Id-1"><xades:SignedProperties Id="PEMI-SignedProperties-Id-1"><xades:SignedSignatureProperties Id="PEMI-SignedSignatureProperties-Id-1"><xades:SigningTime>2011-12-29T10:45:03Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>y6Gsl6n0uZEFmMy0rlZBehJkbjc=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Izba Celna w Krakowie,O=Izba Celna Krakow,OU=Izba Celna Krakow,C=PL,S=Malopolskie,L=Krakow</ds:X509IssuerName><ds:X509SerialNumber>563345071949553336336548</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></EMCSToTrader>
