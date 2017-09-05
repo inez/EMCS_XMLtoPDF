@@ -12,6 +12,11 @@
       <xsl:apply-templates />
     </xsl:for-each>
   </xsl:template>
+  <xsl:template match="//et2:EMCSToTrader" xmlns:et2="http://www.mf.gov.pl/schematy/EMCSPL2/EMCS-TRADER/2016/03/">
+    <xsl:for-each select="et2:Message">
+      <xsl:apply-templates />
+    </xsl:for-each>
+  </xsl:template>
   <xsl:template match="ie:CD801A" xmlns:ie="http://emcs.dgtaxud.ec/v10/cd801/ie" xmlns:tms="http://emcs.dgtaxud.ec/v10/tms">
     <fo:root>
       <xsl:call-template name="ukladA4" />
