@@ -136,6 +136,8 @@ public class MailHandlerServlet extends HttpServlet {
 	public void doPost(HttpServletRequest req, HttpServletResponse resp)
 			throws IOException {
 
+		log.info("WE ARE IN");
+
 		Properties props = new Properties(); 
         Session session = Session.getDefaultInstance(props, null);
 
