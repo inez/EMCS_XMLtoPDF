@@ -1,0 +1,1 @@
+`gcloud app deploy war/WEB-INF/appengine-web.xml --project polandemcs`
