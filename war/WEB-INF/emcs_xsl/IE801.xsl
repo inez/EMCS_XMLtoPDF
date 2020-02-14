@@ -1271,7 +1271,7 @@
       </fo:page-sequence>
     </fo:root>
   </xsl:template>
-  <xsl:template match="ie2:IE801" xmlns:ie2="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE3:IE801:V1.92" xmlns:tms="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE3:TMS:V1.92">
+  <xsl:template match="ie2:IE801" xmlns:ie2="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE3:IE801:V2.02" xmlns:tms="urn:publicid:-:EC:DGTAXUD:EMCS:PHASE3:TMS:V2.02">
     <fo:root>
       <xsl:call-template name="ukladA4" />
       <fo:page-sequence master-reference="single" language="pl" initial-page-number="auto">
